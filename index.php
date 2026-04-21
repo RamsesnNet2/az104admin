@@ -2,7 +2,7 @@
 // Simple backend message (peut être remplacé plus tard)
 $message = "Test AZ-104 - Azure App Service deployment réussi";
 ?>
-
+<?php echo "Slot: " . getenv("WEBSITE_SLOT_NAME"); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
